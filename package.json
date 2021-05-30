@@ -1,10 +1,15 @@
 {
   "name": "electron-helloworld",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wendell1991/electron-helloworld.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "publish": "build --mac --win -p always",
     "lint": "vue-cli-service lint",
     "electron:build": "vue-cli-service electron:build",
     "electron:serve": "vue-cli-service electron:serve",
@@ -14,7 +19,7 @@
   "main": "background.js",
   "dependencies": {
     "core-js": "^3.6.5",
-    "update-electron-app": "^2.0.1",
+    "electron-updater": "^4.3.9",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -23,6 +28,7 @@
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "electron": "^13.0.1",
+    "electron-builder": "^22.10.5",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
