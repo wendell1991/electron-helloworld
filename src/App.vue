@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="This is my first Electron Hello World, I am so excited!" />
+    <HelloWorld msg="Electron Hello World can now be auto updated!" />
   </div>
 </template>
 
