@@ -4,7 +4,7 @@ import { app, protocol, BrowserWindow, autoUpdater, dialog } from 'electron'
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
 import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
 const isDevelopment = process.env.NODE_ENV !== 'production'
-const server = 'https://your-deployment-url.com'
+const server = 'https://github.com/wendell1991/electron-helloworld.git'
 const url = `${server}/update/${process.platform}/${app.getVersion()}`
 
 autoUpdater.setFeedURL({ url })
