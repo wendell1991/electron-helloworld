@@ -1,4 +1,4 @@
-# electron-hellworld
+# electron-helloworld
 
 ## Project setup
 ```
